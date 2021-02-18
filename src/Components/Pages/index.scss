@@ -1,0 +1,158 @@
+.page {
+    box-sizing: border-box;
+    padding: 1rem 2rem 2rem;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    @media(max-width: 500px) {
+        padding: 1rem;
+    }
+
+    &__header {
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        font-family: fantasy;
+        text-transform: uppercase;
+
+        @media(max-width: 1300px) {
+            font-size: 2rem;
+        }
+    }
+
+    &__text {
+        font-family: 'Play';
+        margin: 0;
+        text-align: justify;
+        font-size: 1.5rem;
+        background-color: #cbc9c9;
+        padding: 1rem 2rem;
+
+        @media(max-width: 1300px) {
+            font-size: 1rem;
+            padding: 1rem 1rem;
+        }
+    }
+
+    &__link {
+        color: green;
+        transition: color 1s;
+        margin-left: 0.3rem;
+    }
+
+    &__text ul li {
+        text-align: start;
+        padding-top: 0.5rem;
+
+        @media(max-width: 500px) {
+            font-size: 0.9rem;
+        }
+    }
+
+    &__text ul {
+        @media(max-width: 500px) {
+            padding-left: 1rem;
+        }
+    }
+
+    &__text ul li p {
+        margin: 0;
+        margin-right: 4px;
+        display: inline;
+
+        @media(max-width: 500px) {
+            display: inline-block;
+        }
+    }
+
+    &__link {
+        margin-right: 4px;
+    }
+
+    &__link:hover {
+        color: #9b03e8;
+    }
+
+    &__subheader {
+        font-family: 'Play';
+        color: #0069c3;
+    }
+}
+
+.email {
+    color: #940694;
+    margin-left: 0.3rem;
+}
+
+.p-breadcrumb ul {
+    flex-wrap: nowrap !important;
+    width: max-content !important;
+    white-space: nowrap;
+}
+
+.p-menuitem-text {
+    @media(max-width: 1300px) {
+        font-size: 0.7rem;
+    }
+}
+
+.pi:before {
+    @media(max-width: 1300px) {
+        font-size: 0.7rem;
+    }
+}
+
+.p-component {
+    @media(max-width: 1300px) {
+        font-size: 0.8rem;
+    }
+
+    @media(max-width: 850px) {
+        height: max-content;
+        min-height: max-content;
+    }
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler  {
+    @media(max-width: 1300px) {
+        margin-right: 0.2rem;
+    }
+}
+
+.p-breadcrumb {
+    @media(max-width: 1300px) {
+        padding: 0.6rem;
+    }
+
+    @media(max-width: 600px) {
+        display: none;
+    }
+}
+
+.tree {
+    @media(max-width: 850px) {
+        width: auto;
+        min-height: auto;
+    }
+}
+
+.p-tree .p-tree-container .p-treenode {
+    @media(max-width: 850px) {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content {
+    @media(max-width: 850px) {
+        padding: 0 !important;
+        display: table-cell;
+        text-align: center;
+    }
+
+    @media(max-width: 500px) {
+        text-align: start;
+    }
+}

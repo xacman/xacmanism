@@ -1,0 +1,23 @@
+body {
+    background-color: lavender;
+}
+
+.ManiWrapper {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.pageWrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media(max-width: 850px) {
+    .ManiWrapper {
+        flex-direction: column;
+    }
+}

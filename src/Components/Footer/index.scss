@@ -1,0 +1,71 @@
+footer {
+    width: 100%;
+    background-color: #282626;;
+    box-sizing: border-box;
+}
+
+.upFooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: flex-end;
+    margin: 1rem 0;
+    p {
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        color: #52ec52;
+        margin: 0;
+        font-family: 'Play';
+
+        @media(max-width: 1300px) {
+            font-size: 1.1rem;
+        }
+    }
+
+    img {
+        height: 4rem;
+        @media(max-width: 1300px) {
+            height: 3rem;
+        }
+    }
+}
+
+.facebook {
+    margin-top: 2rem;
+}
+
+.facebook img {
+    height: 2.3rem;
+    margin-right: 0.7rem;
+
+    @media(max-width: 1300px) {
+        height: 1.7rem;
+    }
+}
+
+.facebook:hover {
+    cursor: pointer;
+}
+
+.footerBottom {
+    color: white;
+    font-size: 0.75rem;
+    margin: 0;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem;
+
+    @media(max-width: 1300px) {
+        font-size: 0.5rem;
+    }
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
