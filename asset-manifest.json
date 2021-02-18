@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/xacmanism/static/css/main.551e8d38.chunk.css",
+    "main.js": "/xacmanism/static/js/main.a5669f17.chunk.js",
+    "main.js.map": "/xacmanism/static/js/main.a5669f17.chunk.js.map",
+    "runtime-main.js": "/xacmanism/static/js/runtime-main.c332169d.js",
+    "runtime-main.js.map": "/xacmanism/static/js/runtime-main.c332169d.js.map",
+    "static/css/2.3dc55692.chunk.css": "/xacmanism/static/css/2.3dc55692.chunk.css",
+    "static/js/2.690ce58b.chunk.js": "/xacmanism/static/js/2.690ce58b.chunk.js",
+    "static/js/2.690ce58b.chunk.js.map": "/xacmanism/static/js/2.690ce58b.chunk.js.map",
+    "static/js/3.06e82dda.chunk.js": "/xacmanism/static/js/3.06e82dda.chunk.js",
+    "static/js/3.06e82dda.chunk.js.map": "/xacmanism/static/js/3.06e82dda.chunk.js.map",
+    "index.html": "/xacmanism/index.html",
+    "static/css/2.3dc55692.chunk.css.map": "/xacmanism/static/css/2.3dc55692.chunk.css.map",
+    "static/css/main.551e8d38.chunk.css.map": "/xacmanism/static/css/main.551e8d38.chunk.css.map",
+    "static/js/2.690ce58b.chunk.js.LICENSE.txt": "/xacmanism/static/js/2.690ce58b.chunk.js.LICENSE.txt",
+    "static/media/primereact.min.css": "/xacmanism/static/media/color.6441e63a.png",
+    "static/media/email.1195f368.png": "/xacmanism/static/media/email.1195f368.png",
+    "static/media/facebook.c8680c23.png": "/xacmanism/static/media/facebook.c8680c23.png",
+    "static/media/primeicons.css": "/xacmanism/static/media/primeicons.e61f3495.woff",
+    "static/media/simbol.60033fd8.png": "/xacmanism/static/media/simbol.60033fd8.png",
+    "static/media/simbol_footer.346b155a.png": "/xacmanism/static/media/simbol_footer.346b155a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c332169d.js",
+    "static/css/2.3dc55692.chunk.css",
+    "static/js/2.690ce58b.chunk.js",
+    "static/css/main.551e8d38.chunk.css",
+    "static/js/main.a5669f17.chunk.js"
+  ]
+}
