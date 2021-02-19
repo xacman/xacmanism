@@ -11,7 +11,7 @@ const Transhumanism = () => {
         { label: i18n.t("transhumainsm-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' }
+    const home = { icon: 'pi pi-home', url: '#' }
 
     return (
         <article className="page">

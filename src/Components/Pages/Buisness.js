@@ -11,7 +11,7 @@ const Buisness = () => {
         { label: i18n.t("buisness-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' }
+    const home = { icon: 'pi pi-home', url: '#' }
 
     return (
         <article className="page">

@@ -11,7 +11,7 @@ const Communism = () => {
         { label: i18n.t("communism-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' }
+    const home = { icon: 'pi pi-home', url: '#' }
 
     return (
         <article className="page">

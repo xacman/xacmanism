@@ -11,7 +11,7 @@ const LGBT = () => {
         { label: i18n.t("lgbt-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' };
+    const home = { icon: 'pi pi-home', url: '#' };
 
     return (
         <article className="page">

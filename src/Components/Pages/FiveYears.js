@@ -11,7 +11,7 @@ const FiveYears = () => {
         { label: i18n.t("fiveyears-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' }
+    const home = { icon: 'pi pi-home', url: '#' }
 
     return (
         <article className="page">

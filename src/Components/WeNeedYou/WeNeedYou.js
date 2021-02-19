@@ -8,7 +8,7 @@ const WeNeedYou = () => {
         { label: i18n.t("weneedyou") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' }
+    const home = { icon: 'pi pi-home', url: '#' }
 
     return (
         <article className="page">

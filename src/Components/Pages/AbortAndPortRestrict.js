@@ -11,7 +11,7 @@ const AbortAndPortRestrict = () => {
         { label: i18n.t("abortandportban-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' };
+    const home = { icon: 'pi pi-home', url: '#' };
     return (
         <article className="page">
             <BreadCrumb model={items} home={home}/>

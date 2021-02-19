@@ -11,7 +11,7 @@ const Liberalism = () => {
         { label: i18n.t("liberalism-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' }
+    const home = { icon: 'pi pi-home', url: '#' }
 
     return (
         <article className="page">

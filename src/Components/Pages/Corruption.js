@@ -11,7 +11,7 @@ const Corrutpion = () => {
         { label: i18n.t("corruption-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' };
+    const home = { icon: 'pi pi-home', url: '#' };
 
     return (
         <article className="page">

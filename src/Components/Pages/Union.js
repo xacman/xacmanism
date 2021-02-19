@@ -11,7 +11,7 @@ const Union = () => {
         { label: i18n.t("union-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' };
+    const home = { icon: 'pi pi-home', url: '#' };
 
     return (
         <article className="page">

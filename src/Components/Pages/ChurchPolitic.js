@@ -11,7 +11,7 @@ const churchpolitics = () => {
         { label: i18n.t("churchpolitics-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' };
+    const home = { icon: 'pi pi-home', url: '#' };
 
     return (
         <article className="page">

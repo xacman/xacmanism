@@ -11,7 +11,7 @@ const Imf = () => {
         { label: i18n.t("IMF") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' }
+    const home = { icon: 'pi pi-home', url: '#' }
 
     return (
         <article className="page">

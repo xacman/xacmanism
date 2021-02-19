@@ -11,7 +11,7 @@ const ReligionAttitution = () => {
         { label: i18n.t("religionattitution-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' };
+    const home = { icon: 'pi pi-home', url: '#' };
 
     return (
         <article className="page">

@@ -10,7 +10,7 @@ const Country = () => {
         { label: i18n.t("country-1") },
     ];
 
-    const home = { icon: 'pi pi-home', url: '../' }
+    const home = { icon: 'pi pi-home', url: '#' }
 
     return (
         <article className="page">
